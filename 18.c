@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    float l, w, a;
+    printf("Enter the length & width of the rectangle::\n");
+    scanf("%f", &l);
+    scanf("%f", &w);
+    a = l * w;
+    printf("\nArea of rectangle = %f units ", a);
+
+    return 0;
+}
